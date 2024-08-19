@@ -10,7 +10,6 @@ android {
 
     defaultConfig {
         minSdk = 24
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -50,7 +49,6 @@ publishing {
             afterEvaluate {
                 from(components["release"])
             }
-
             // Customize the coordinates for your library
             groupId = "com.appsqueeze"
             artifactId = "ultimatemodule"

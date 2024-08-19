@@ -25,6 +25,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "libraryDemo"
+rootProject.name = "ultimate-module"
 include(":app")
-include(":ultimateModule")
+include(":ultimate-module")
