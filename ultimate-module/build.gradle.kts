@@ -56,10 +56,10 @@ publishing {
         }
     }
 
-    repositories {
-        maven {
-            // Publish to a local directory, typically in the user's home folder
-            url = uri("$rootDir/repo")
-        }
-    }
+//    repositories {
+//        maven {
+//            // Publish to a local directory, typically in the user's home folder
+//            url = uri("$rootDir/repo")
+//        }
+//    }
 }
